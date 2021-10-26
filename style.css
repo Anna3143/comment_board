@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  background: #d9f0e991;
+  font-family: style= font-family:Microsoft JhengHei;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.warning {
+  background: #71b5af;
+  color: #f4fcfbfc;
+  padding: 12px;
+  text-align: center;
+}
+
+.board {
+  background: white;
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-shadow: 1px 1px 3px #e8e8e8;
+  border-radius: 5px;
+}
+
+
+.board__title {
+  color: #476d6a;
+}
+
+.book {
+
+  padding: 20px;
+}
+.book img{
+ margin: 50px;
+}
+
+.book-title{
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+h4 {
+  color: #476d6a;
+}
+
+.board__new-comment-form textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #476d6a;
+}
+
+.board__nickname {
+  margin-bottom: 10px;
+}
+
+.board__nickname input {
+  border: 1px solid #c2dffb;
+  padding: 5px;
+}
+
+.board__submit-btn {
+  padding: 10px;
+  border: 1px solid #c2dffb;
+  border-radius: 5px;
+  width: 100px;
+  color: #583c63;
+  font-size: 16px;
+  background: white;
+}
+
+.board__hr {
+  margin: 20px auto;
+  height: 2px;
+  background: #e8e8e8;
+  max-width: 95%;
+}
+
+.card {
+  margin: 20px 0;
+  min-height: 70px;
+  display: flex;
+  color: #476d6a;
+}
+
+.card__avatar {
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #78c9c3;
+}
+
+a {
+  text-decoration: none;
+  color: #476d6a;
+
+} 
+
+.card__body {
+  margin-left: 10px;
+}
+
+.card__content {
+  margin-top: 8px;
+  max-width: 100%;
+}
+
+.card__author {
+  font-size: 16px;
+  color: #78c9c3;
+  font-weight: bold;
+}
+
+.card__time {
+  margin-left: 10px;
+  margin-right: 20px;
+  color: #a0a0a0;
+} 
+
+.board__btn {
+  font-family: style= font-family:Microsoft JhengHei;
+  padding: 10px 30px;
+  border: 2px solid #71b5af;
+  border-radius: 5px;
+  color: #66a7a2;
+  font-size: 16px;
+  background: #dad7bf33;
+  min-width: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.board__nickname-form {
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
+
+  }
+
+.page-info {
+  color: #476d6a;
+  text-align: center;
+}
+
+.paginator {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.paginator a {
+  margin: 3px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: #71b5af;
+  border: 0.5px solid #71b5af;
+  padding: 10px;
+} 
+
